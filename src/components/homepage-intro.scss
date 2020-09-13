@@ -1,0 +1,32 @@
+.homepage-intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 70vh;
+  padding: 5rem 0rem;
+}
+
+.homepage-title {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  text-align: center;
+  h2 {
+    font-weight: 500;
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+}
+
+.homepage-buttons {
+  margin: 1rem;
+
+  Button {
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,33 @@
+.header {
+  padding: 0.5rem;
+  background-color: #60BDB1;
+}
+
+.header-title {
+  color: #000;
+  text-decoration: none;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.nav-item {
+  margin-right: 1.3rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+
+  a {
+    color: #666;
+  }
+  a:hover {
+    color: black;
+  }
+}
